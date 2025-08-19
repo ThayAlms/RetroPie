@@ -31,12 +31,12 @@ Este guia mostra como instalar, configurar e transferir jogos (ROMs) para jogar 
    - Resolução da tela  
 
 ---
-
+Pressione F4 para entrar no cmd do RetroPie
 ## 🎛️ Configuração inicial  
 
 1. Conecte seu **controle USB ou Bluetooth**.  
 2. Siga as instruções para mapear os botões.  
-3. Reinicie se necessário.  
+3. Reinicie se necessário.  `sudo reboot now` 
 
 ---
 
@@ -58,8 +58,6 @@ No meu caso, criei manualmente a pasta `/media/usb` para montar o pendrive. Ela 
 
 Ao acessar, temos que "montar o pendrive", informando onde devem ser colocados os arquivos, que será na pasta nova criada. Para isso, fazemos:
 
-sudo reboot now (para reiniciar)
-F4 para entrar no cmd
 ```bash
 
 sudo mkdir -p /media/usb
